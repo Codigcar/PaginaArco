@@ -1,0 +1,282 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{font-size: 66px;  font-weight: 600;/*GRUSO DE LA LETRA*/ line-height: 80px; }
+h2 {font-size: 48px;margin-bottom: 30px;}
+h3{font-size: 30px; line-height: 80px;}
+
+section{ padding: 30px 0;}
+
+p{
+  font-size: 18px;
+  color: #999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+#hero p{
+  color: #fff;
+/*  padding: 20px;*/
+/*  padding-bottom: 40px;*/
+}
+
+.topmargin-xg{ margin-top: 15px;}
+.topmargin-sm{ margin-top: 30px;}
+.topmargin-lg{ margin-top: 60px;}
+
+.btn{-/*PATRON PARA LOS BOTONES*/
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.btn-light{/*ESPECIFICA PARA UN SOLO BOTON*/
+  background-color: #fff;
+  color: #1a1a1a; /*NEGRO PARA LETRA*/
+  border: 2px solid #fff; /*BORDER*/
+}
+.btn i{
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+
+.navbar{
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);/*sombra*/
+  min-height: 100px; /*altura de fondo*/
+}
+.nav-link{
+  color: #1a1a1a;
+}
+.nav-link:hover{
+  color:#1a1a1a;
+}
+.logo-brand{
+  min-width: 100px;
+  max-width: 50px;
+}
+.navbar-toggler{
+  font-size: 40px;/*TAMAÑO DEL BOTON*/
+}
+.navbar-toggler:focus {/*CADA VEZ QUE LE DOY CLICK*/
+  outline: none;
+}
+#hero{/*PARA LA IMAGEN*/
+ /*background: url('imagenes/alumnos.jpg');*/
+  /*background: url(imagenes/imagenArcoIris.png);*/
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(imagenes/alumnos.jpg);
+
+  background-size: cover;
+
+  min-height: 550px; /*TAMAÑO DE LA IMAGEN DE FONDO*/
+  color: #fff;/*COLOR LETRA DEL TEXTO*/
+  padding-top: 90px; /*ESPACIO ARRIBA PARA EL TEXTO*/
+}
+.container-center{/*PARA CENTRAR TEXTO*/
+  max-width: 800px;
+  margin: 0 auto 60px auto; /*MARGENES*/
+  text-align: center; /*CENTRAR LETRA*/
+}
+
+.borde{/*
+  border: 1px #000 solid;
+  text-align: center;
+  height: 100px;-*/
+}
+.contenedor-img{
+  width: 100px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  h1 {font-size: 40px;line-height: normal;}
+  h2 {font-size: 40px;line-height: normal;}
+  /*h3 {font-size: 20px;line-height: normal;}*/
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+/*POOTFOLIO imagen*/
+.portfolio-container{
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0;
+	border-radius: 2px; /*BORDEAR EN CIRCLO LAS IMAGENES*/
+    padding: 16px;/*LO PONE MÁS AL CENTRO*/
+}
+
+.portfolio-details{
+	position: absolute;
+  bottom: 5px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portfolio-details a h3, .portfolio-details a p{
+	color: #fff;
+
+}
+.hora{
+  position: relative;
+  left: 60px;
+  bottom:  20px;
+}
+.turno{
+  position: relative;
+  left: 40px;
+  bottom:  20px;
+}
+
+ a:hover{
+ 	text-decoration: none;
+ }
+
+ .portfolio-details{
+ 	margin-bottom: 0px;
+ }
+
+ .portfolio-container img{
+ 	-moz-transition: all 0.8s;
+ 	-webkit-transition: all 0.8s;
+ 	transition: all 0.8s;
+ }
+ .portfolio-container:hover img{
+ 	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform: scale(1.2);
+ }
+
+/*END PORTFOLIO*/
+
+/*ABOUT*/
+.fondo-about{
+  background-color: #f5f5f5;
+}
+/*END ABOUT*/
+/* SERVICES*/
+#services {
+  background: linear-gradient(rgba(255, 255 ,255 , .9), rgba(255, 255 ,255 , .9)),
+  url("imagenes/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+
+
+}
+.service-item {
+  margin-bottom: 20px;
+}
+  .service-icon {
+    float: left;
+    background: #30C94E; /*FONDO DEL CIRCULO SIN ACCION*/
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #30C94E; /*BORDER DEL CIRCULO*/
+
+
+
+  }
+  i {
+    color: #fff; /*COLOR DE LOS ICONOS*/
+    font-size: 24px;
+  }
+  /*CUANDO SE PASA POR EL MOUSE*/
+  .service-item:hover .service-icon  {
+    background: #fff; /*CAMBIA FONDO CUANDO PASA MOUSE*/
+  }
+  .service-item:hover .service-icon i  {
+    color:#30C94E ;
+
+  }
+  /*END CUANDO SE PASA POR EL MOUSE*/
+
+  .service-title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+    a {
+      color: #111;
+    }
+
+  .service-description {
+    margin-left: 80px;
+    line-height: 24px;
+  }
+
+/*SECTION ESCOLAR*/
+
+#SectionEscolar{
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(imagenes/refuerzoEscolar.jpg);
+
+
+  background-size: cover;
+  min-height: 550px; /*TAMAÑO DE LA IMAGEN DE FONDO*/
+  color: #fff;/*COLOR LETRA DEL TEXTO*/
+  padding-top: 90px; /*ESPACIO ARRIBA PARA EL TEXTO*/
+
+}
+#SectionEscolar:before{
+
+}
+#SectionEscolar p{
+  color:#fff;
+}
+/*END SECTION ESCOLAR*/
+
+.separacion{
+  padding-top:  80px;
+}
+.info {
+      padding: 80px auto;
+}
+.info i {
+    font-size: 32px;
+    color: blue;
+    float: left;
+
+  }
+
+.info p {
+      padding: 0 0 10px 50px;
+    line-height: 24px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
