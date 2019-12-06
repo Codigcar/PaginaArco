@@ -1,0 +1,26 @@
+#filaAlumnos{
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(../imagenes/filadeAlumnos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+#filaPizarra{
+    
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url(../imagenes/filaPizarra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  align-items: center;
+  
+}
+#filaPizarra h1{
+  color:#fff;
+  text-align: center; /*CENTRAR LETRA*/
+  padding:5%;
+}
