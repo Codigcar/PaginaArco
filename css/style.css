@@ -24,7 +24,7 @@ p{
 .topmargin-sm{ margin-top: 30px;}
 .topmargin-lg{ margin-top: 60px;}
 
-.btn{-/*PATRON PARA LOS BOTONES*/
+.btn{/*PATRON PARA LOS BOTONES*/
   font-size: 14px;
   padding: 15px 26px;
   min-width: 160px;
@@ -68,7 +68,7 @@ p{
  /*background: url('imagenes/alumnos.jpg');*/
   /*background: url(imagenes/imagenArcoIris.png);*/
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url(imagenes/alumnos.jpg);
+  url(../imagenes/alumnos.jpg);
 
   background-size: cover;
 
@@ -82,11 +82,7 @@ p{
   text-align: center; /*CENTRAR LETRA*/
 }
 
-.borde{/*
-  border: 1px #000 solid;
-  text-align: center;
-  height: 100px;-*/
-}
+
 .contenedor-img{
   width: 100px;
 }
@@ -100,16 +96,16 @@ p{
  }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }
 
 
 /*POOTFOLIO imagen*/
@@ -172,7 +168,7 @@ p{
 /* SERVICES*/
 #services {
   background: linear-gradient(rgba(255, 255 ,255 , .9), rgba(255, 255 ,255 , .9)),
-  url("imagenes/services-bg.jpg") fixed center center;
+  url("../imagenes/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 
@@ -226,7 +222,7 @@ p{
 #SectionEscolar{
 
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url(imagenes/refuerzoEscolar.jpg);
+  url(../imagenes/refuerzoEscolar.jpg);
 
 
   background-size: cover;
@@ -235,9 +231,7 @@ p{
   padding-top: 90px; /*ESPACIO ARRIBA PARA EL TEXTO*/
 
 }
-#SectionEscolar:before{
 
-}
 #SectionEscolar p{
   color:#fff;
 }
@@ -261,7 +255,7 @@ p{
     line-height: 24px;
   }
 
-}
+
 
 
 
