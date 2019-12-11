@@ -25,6 +25,7 @@ p{
 .topmargin-sm{ margin-top: 30px;}
 .topmargin-lg{ margin-top: 60px;}
 
+
 .btn{/*PATRON PARA LOS BOTONES*/
   font-size: 14px;
   padding: 15px 26px;
@@ -66,7 +67,7 @@ p{
  /* background: red; COLOR FONDO DEL BOTON*/
 }
 .navbar-toggler i{
-  color:black; /*COLOR FONDO DEL BOTON*/
+  color:#fff; /*COLOR FONDO DEL BOTON*/
 }
 .navbar-toggler:focus {/*CADA VEZ QUE LE DOY CLICK*/
   outline: none;
@@ -79,7 +80,8 @@ p{
 
   background-size: cover;
 
-  min-height: 550px; /*TAMAÑO DE LA IMAGEN DE FONDO*/
+  min-height: 50vw; /*TAMAÑO DE LA IMAGEN DE FONDO*/
+  
   color: #fff;/*COLOR LETRA DEL TEXTO*/
   padding-top: 90px; /*ESPACIO ARRIBA PARA EL TEXTO*/
 }
@@ -113,8 +115,18 @@ p{
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }
-
-
+/*
+#portfolio{
+ background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  url(../imagenes/libros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150px;
+  align-items: center;
+  
+}
+*/
 /*POOTFOLIO imagen*/
 .portfolio-container{
 	position: relative;
@@ -165,18 +177,20 @@ p{
 	transform: scale(1.2);
  }
 
+ .justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important; }
+
 /*END PORTFOLIO*/
 
-/*ABOUT*/
-.fondo-about{
-  background-color: #f5f5f5;
-}
-/*END ABOUT*/
+
 /* SERVICES*/
 #services {
   background: linear-gradient(rgba(255, 255 ,255 , .9), rgba(255, 255 ,255 , .9)),
   url("../imagenes/services-bg.jpg") fixed center center;
   background-size: cover;
+  min-height: 50vw;
   padding: 80px 0 60px 0;
 
 
@@ -184,6 +198,7 @@ p{
 .service-item {
   margin-bottom: 20px;
 }
+
   .service-icon {
     float: left;
     background: #30C94E; /*FONDO DEL CIRCULO SIN ACCION*/
