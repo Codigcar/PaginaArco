@@ -47,7 +47,7 @@ p{
 
 .navbar{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);/*sombra*/
-  min-height: 100px; /*altura de fondo*/
+  min-height: 50px; /*altura de fondo*/
 }
 .top-nav-collapse{/*SE APLICA CUANDO SE HACE SCROLL AL NAV*/
  background: #fff !important;
@@ -76,7 +76,7 @@ p{
  /*background: url('imagenes/alumnos.jpg');*/
   /*background: url(imagenes/imagenArcoIris.png);*/
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url(../imagenes/alumnos.jpg);
+  url(../imagenes/background1.jpg); 
 
   background-size: cover;
 
@@ -138,8 +138,8 @@ p{
 
 .portfolio-details{
 	position: absolute;
-  bottom: 5px;
-  left: 25px;
+  bottom: 0px;
+  left: 5px; /*POSICION IZQUIERDA DEL LA PALABRA (TURNO MAÑANA)*/
   z-index: 9000;
 }
 
@@ -147,15 +147,26 @@ p{
 	color: #fff;
 
 }
+.inicioCiclo{
+  position: relative;
+  left: 40px;
+  bottom:  -20px;
+}
+.finCiclo{
+  position: relative;
+  left: 40px;
+  bottom:  -0px;
+}
+}
 .hora{
   position: relative;
-  left: 60px;
-  bottom:  20px;
+  left: 40px;
+  bottom:  400px;
 }
 .turno{
   position: relative;
   left: 40px;
-  bottom:  20px;
+  bottom:  -30px;
 }
 
  a:hover{

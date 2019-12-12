@@ -7,8 +7,8 @@
 
 
 #newservice{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-  url(../imagenes/libros.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../imagenes/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

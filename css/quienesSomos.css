@@ -1,0 +1,42 @@
+.indicador-quienesSomos p{
+    color:black;
+   /* font-size: 100%;*/
+}
+
+#QuienesSomos{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vw;
+  align-items: center;
+}
+
+.espacio-izquierda{
+   /* padding-left: 100px;*/
+   padding: 70px;
+  
+   padding-top: 0px;
+}
+@media (max-width: 575.98px) {
+    .espacio-izquierda{
+
+        padding: 20px;
+        padding-top: 0px;
+     }
+   }
+  
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+
+   }
+  
+  /*Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {  }
+  
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {  }
+  
+  /*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {  }
